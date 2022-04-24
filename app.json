@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/rahulrahamanx/Netflix-AutoFilterBot-",
-    "repository": "https://github.com/rahulrahamanx/Netflix-AutoFilterBot-",
+    "website": "https://github.com/rahulrahamanx/Netflix-AutoFilterBot",
+    "repository": "https://github.com/rahulrahamanx/Netflix-AutoFilterBot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
