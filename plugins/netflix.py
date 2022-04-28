@@ -9,7 +9,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 
 #txt messages
 MOREBOTS_TXT = """**Here Some Of Our Cool Prime Bots That You Can Use Freely Without Any Limitation😊**"""
-INLINE_TXT = """ 
+INLINE_TXT = """**Search....**
 """
 
 #buttons
