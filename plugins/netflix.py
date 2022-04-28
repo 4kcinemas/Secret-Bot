@@ -64,6 +64,7 @@ def donate(bot, message):
     q = message.reply_photo(
         photo=DONATE_QR,
         caption=script.DONATE_MESSAGE,
+        reply_markup=reply_markup,
     )
     time.sleep(300)
     q.delete()
