@@ -330,8 +330,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('📢Support Channel', url='https://t.me/iprimehub'),
-                        InlineKeyboardButton('🤡Request Content', url='https://t.me/NetFlixRequestChat')
+                        InlineKeyboardButton('📢 Support Channel', url='https://t.me/iprimehub'),
+                        InlineKeyboardButton('🗣️ Request Movies', url='https://t.me/NetFlixRequestChat')
                     ]
                     ]
                 await query.answer()
@@ -382,7 +382,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('📢Support Channel', url='https://t.me/iprimehub'),
-                        InlineKeyboardButton('🤡Request Content', url='https://t.me/NetFlixRequestChat')
+                        InlineKeyboardButton('🗣️ Request Movies', url='https://t.me/NetFlixRequestChat')
                     ]
                     ]
 
