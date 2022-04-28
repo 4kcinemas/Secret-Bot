@@ -11,6 +11,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 MOREBOTS_TXT = """**Here Some Of Our Cool Prime Bots That You Can Use Freely Without Any Limitation😊**"""
 INLINE_TXT = """**Search........**
 """
+PIK = https://telegra.ph/file/f4d232fde3824518ae623.jpg
 
 #buttons
 DONATE_BUTTON = [[
@@ -132,12 +133,10 @@ def morebots(bot, message):
 #inline message
 @Client.on_message(filters.command("inlinex") & filters.incoming & ~filters.edited)
 def searches(client, message):
-    caption = INLINE_TXT,
-    photo = https://telegra.ph/file/f4d232fde3824518ae623.jpg,
     reply_markup = InlineKeyboardMarkup(INLIN_BTN)
     xt = message.reply_photo(
-        photo=photo,
-        caption=caption,
+        photo=PIC,
+        caption=INLINE_TXT,
         reply_to_message_id=message.message_id,
         reply_markup=reply_markup,
         disable_web_page_preview=True
