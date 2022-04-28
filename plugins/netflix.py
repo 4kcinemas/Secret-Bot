@@ -139,7 +139,7 @@ def searches(client, message):
         caption=INLINE_TXT,
         reply_to_message_id=message.message_id,
         reply_markup=reply_markup,
-        disable_web_page_preview=True
+        parse_mode='html',
     )
     time.sleep(120)
     xt.delete()
