@@ -136,8 +136,6 @@ def searches(client, message):
     reply_markup = InlineKeyboardMarkup(INLIN_BTN)
     xt = message.reply_photo(
         photo=PIK,
-        caption=INLINE_TXT,
-        reply_to_message_id=message.message_id,
         reply_markup=reply_markup,
         parse_mode='html',
     )
