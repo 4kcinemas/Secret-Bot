@@ -43,8 +43,7 @@ Name - {}
 𝙸𝚏 𝚈𝚘𝚞 𝚊𝚛𝚎 𝚝𝚑𝚎 𝚛𝚒𝚐𝚑𝚝 𝚘𝚠𝚗𝚎𝚛 𝚊𝚗𝚍 𝚠𝚊𝚗𝚝 𝚝𝚘 𝚛𝚎𝚖𝚘𝚟𝚎 𝚊𝚗𝚢 𝚌𝚎𝚛𝚝𝚊𝚒𝚗 𝚏𝚒𝚕𝚎𝚜, 𝙿𝚕𝚎𝚊𝚜𝚎 𝚛𝚎𝚙𝚘𝚛𝚝 𝚞𝚜, 𝚠𝚎 𝚊𝚛𝚎 𝚛𝚎𝚊𝚍𝚢 𝚝𝚘 𝚛𝚎𝚖𝚘𝚟𝚎 𝚝𝚑𝚘𝚜𝚎 𝚌𝚘𝚗𝚝𝚎𝚗𝚝 𝚊𝚜 𝚜𝚘𝚘𝚗 𝚊𝚜 𝚠𝚎 𝚌𝚊𝚗!
 𝙰𝚍𝚖𝚒𝚗 𝙸𝚜 𝙽𝚘𝚝 𝚁𝚎𝚜𝚙𝚘𝚗𝚜𝚒𝚋𝚕𝚎 𝙵𝚘𝚛 𝚊𝚗𝚢 𝙳𝚒𝚛𝚎𝚌𝚝 & 𝚒𝚗𝚍𝚒𝚛𝚎𝚌𝚝 𝙿𝚛𝚘𝚏𝚒𝚝 𝚕𝚘𝚜𝚜"""
     REQUEST_TXT = """𝐁𝐞𝐟𝐨𝐫𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐢𝐧𝐠 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐓𝐡𝐞 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐈𝐬𝐧'𝐭 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐎𝐧 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 🙅‍♂️"""
-    DONATE_MESSAGE = """**DONATE:-**
-
+    DONATE_MESSAGE = """
 🥺Please Consider Donate it's helps me to keep Service alive and Motivated.
 ☺️It doesn't matters if you donate ₹10 or ₹50
 or ₹100, what matters is that **You Donate**
