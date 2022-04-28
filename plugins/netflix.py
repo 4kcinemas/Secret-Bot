@@ -17,8 +17,9 @@ DONATE_QR = 'https://telegra.ph/file/97424ec12aabfe9b4b58c.jpg'
 
 #buttons
 DONATE_BUTTON = [[
-InlineKeyboardButton('🙋 Developer', url=f'https://t.me/h7n9_alpha'), 
-InlineKeyboardButton('👥 Support Channel', url=f'https://t.me/iprimehub'),
+InlineKeyboardButton('Paypal', url=f'https://PayPal.me/rahulrahaman'), 
+InlineKeyboardButton('GPay', url=f'http://bit.ly/3AhV8gv'),
+InlineKeyboardButton('Paytm ', url=f'https://bit.ly/3FPKXRp'),
 ]]
 
 REQUEST_BUTTON = [[
