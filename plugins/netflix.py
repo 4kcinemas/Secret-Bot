@@ -49,7 +49,7 @@ MOREBOTS_BUTTON = [
             ]
          ]
 
-SEARCHES_BTN = [[
+INLIN_BTN = [[
             InlineKeyboardButton('🏡 Go Inline', switch_inline_query=""),
             InlineKeyboardButton('🔍 Search Here', switch_inline_query_current_chat=""),
             ]]
@@ -133,7 +133,7 @@ def morebots(bot, message):
 @Client.on_message(filters.command("inlinex") & filters.incoming & ~filters.edited)
 def searches(client, message):
     text = INLINE_TXT
-    reply_markup = InlineKeyboardMarkup(SEARCHES_BTN)
+    reply_markup = InlineKeyboardMarkup(INLIN_BTN)
     xt = message.reply(
         text=text,
         reply_to_message_id=message.message_id,
