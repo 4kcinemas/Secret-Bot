@@ -63,8 +63,7 @@ def donate(bot, message):
     reply_markup = InlineKeyboardMarkup(DONATE_BUTTON)
     q = message.reply_photo(
         photo=DONATE_QR,
-        caption=script.DONATE_MESSAGE
-        reply_markup=reply_markup,
+        caption=script.DONATE_MESSAGE,
         parse_mode='html',
     )
     time.sleep(300)
