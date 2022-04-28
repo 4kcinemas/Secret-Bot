@@ -11,7 +11,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 MOREBOTS_TXT = """**Here Some Of Our Cool Prime Bots That You Can Use Freely Without Any Limitation😊**"""
 INLINE_TXT = """**Search........**
 """
-PIK = https://telegra.ph/file/f4d232fde3824518ae623.jpg
+PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
 
 #buttons
 DONATE_BUTTON = [[
