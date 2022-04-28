@@ -9,6 +9,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 
 #txt messages
 MOREBOTS_TXT = """**Here Some Of Our Cool Prime Bots That You Can Use Freely Without Any Limitation😊**"""
+INLINE_TXT = """
+"""
 
 #buttons
 DONATE_BUTTON = [[
@@ -128,9 +130,9 @@ def morebots(bot, message):
     message.delete(message.message_id)
 
 #searches message
-@Client.on_message(filters.command("Searches") & filters.group & filters.incoming & ~filters.edited)
+@Client.on_message(filters.command("inlinex") & filters.incoming & ~filters.edited)
 def searches(client, message):
-    text = script.SEARCHES_TEXT
+    text = INLINE_TXT
     reply_markup = InlineKeyboardMarkup(SEARCHES_BTN)
     xt = message.reply(
         text=text,
