@@ -12,7 +12,7 @@ MOREBOTS_TXT = """**Here Some Of Our Cool Prime Bots That You Can Use Freely Wit
 INLINE_TXT = """**Search........**
 """
 PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
-PIK2 = 'https://telegra.ph/file/0369cd307fa8fa6f15e78.jpg'
+PIK2 = 'https://telegra.ph/file/67474faec309ca88f7a71.jpg'
 
 #buttons
 DONATE_BUTTON = [[
