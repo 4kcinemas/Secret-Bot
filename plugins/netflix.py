@@ -12,6 +12,7 @@ MOREBOTS_TXT = """**Here Some Of Our Cool Prime Bots That You Can Use Freely Wit
 INLINE_TXT = """**Search........**
 """
 PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
+PIK2 = 'https://telegra.ph/file/0369cd307fa8fa6f15e78.jpg'
 
 #buttons
 DONATE_BUTTON = [[
@@ -73,13 +74,12 @@ def donate(bot, message):
 #request message
 @Client.on_message(filters.command("request") & filters.incoming & ~filters.edited)
 def request(client, message):
-    text = script.REQUEST_TXT
     reply_markup = InlineKeyboardMarkup(REQUEST_BUTTON)
-    w = message.reply(
-        text=text,
-        reply_to_message_id=message.message_id,
+    w = message.reply_photo(
+        photo=PIK2,
+        caption = script.REQUEST_TXT,
         reply_markup=reply_markup,
-        disable_web_page_preview=True
+        parse_mode='html',
     )
     time.sleep(30)
     w.delete()
