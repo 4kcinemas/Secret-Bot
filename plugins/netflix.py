@@ -13,6 +13,7 @@ INLINE_TXT = """**Search........**
 """
 PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
 PIK2 = 'https://telegra.ph/file/67474faec309ca88f7a71.jpg'
+DONATE_QR = 'https://telegra.ph/file/97424ec12aabfe9b4b58c.jpg'
 
 #buttons
 DONATE_BUTTON = [[
@@ -58,14 +59,13 @@ INLIN_BTN = [[
 
 #donate message
 @Client.on_message(filters.command('donate') & filters.incoming & ~filters.edited)      #DONATE COMMANDS AND MASSAGES
-def donate(bot, message):
-    text = script.DONATE_MESSAGE 
+def donate(bot, message): 
     reply_markup = InlineKeyboardMarkup(DONATE_BUTTON)
-    q = message.reply_text(
-        text=text,
-        reply_to_message_id=message.message_id,
+    q = message.reply_photo(
+        photo=DONATE_QR,
+        caption=script.DONATE_MESSAGE
         reply_markup=reply_markup,
-        disable_web_page_preview=True
+        parse_mode='html',
     )
     time.sleep(300)
     q.delete()
