@@ -132,10 +132,12 @@ def morebots(bot, message):
 #searches message
 @Client.on_message(filters.command("inlinex") & filters.incoming & ~filters.edited)
 def searches(client, message):
-    text = INLINE_TXT
+    text = INLINE_TXT,
+    pic = https://telegra.ph/file/f4d232fde3824518ae623.jpg,
     reply_markup = InlineKeyboardMarkup(INLIN_BTN)
     xt = message.reply(
         text=text,
+        pic=pic,
         reply_to_message_id=message.message_id,
         reply_markup=reply_markup,
         disable_web_page_preview=True
