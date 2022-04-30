@@ -28,7 +28,7 @@ InlineKeyboardButton('👥 Request Content', url=f'https://t.me/NetFlixRequestCh
 ]]
 
 HELP_BUTTON = [[
-InlineKeyboardButton('⚠️ Disclaimer', url=f'https://telegra.ph/DISCLAIMER-03-12-15'), 
+InlineKeyboardButton('🙇 Developer', url=f'https://t.me/h7n9_alpha'), 
 InlineKeyboardButton('ℹ️ FeedBack', url=f'https://t.me/PrimeFeedbackBot'),
 ]]
 
