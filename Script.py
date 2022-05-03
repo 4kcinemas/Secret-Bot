@@ -4,16 +4,16 @@ class script(object):
 👌 𝐈 𝐂𝐚𝐧 𝐒𝐞𝐚𝐫𝐜𝐡 𝐌𝐨𝐯𝐢𝐞𝐬 𝐅𝐨𝐫 𝐘𝐨𝐮
 😋 𝐉𝐮𝐬𝐭 𝐒𝐞𝐧𝐝 𝐌𝐞 𝐀𝐧𝐲 𝐌𝐨𝐯𝐢𝐞 𝐍𝐚𝐦𝐞
 🔮 𝐓𝐡𝐞𝐧 𝐒𝐭𝐚𝐧𝐝 𝐁𝐚𝐜𝐤 𝐀𝐧𝐝 𝐒𝐞𝐞 𝐓𝐡𝐞 𝐌𝐚𝐠𝐢𝐜 
-🧑🏻‍💻 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 <a href=https://t.me/iPRIMEHUB>𝐏𝐫𝐢𝐦𝐞𝐇𝐮𝐛™</a>
+🧑🏻‍💻 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 <a href=https://t.me/ss_linkz>𝐒𝐒_𝐋𝐢𝐧𝐤𝐳™</a>
 """
     START2_TXT = """𝐇𝐞𝐥𝐥𝐨 {} ,
 👌 **I'm Movie Finder Bot**
 😁 **I Can Give You Movies**
 😋 **Send Me Movie Name In My PM**
 🔮 **And Wait For Me To Do Magic**
-🧑🏻‍💻 **Maintained By** <a href=https://t.me/iPRIMEHUB>𝐏𝐫𝐢𝐦𝐞𝐇𝐮𝐛</a>
+🧑🏻‍💻 **Maintained By** <a href=https://t.me/ss_linkz>𝐒𝐒_𝐋𝐢𝐧𝐤𝐳</a>
 """
-    HELP_TXT = """**This is Modified Auto-filter Bot Based on Eva-Maria's Codes, Developed By** <a href=https://t.me/iPRIMEHUB>𝐏𝐫𝐢𝐦𝐞𝐇𝐮𝐛</a>
+    HELP_TXT = """**This is Modified Auto-filter Bot Based on Eva-Maria's Codes, Developed By** <a href=https://t.me/ss_linkz>𝐒𝐒_𝐋𝐢𝐧𝐤𝐳</a>
 
 **I Did Many Mistakes While Creating This Bot, If You Find Any Kind Of Mistakes or Bugs Then Feel Free To Inform Me**
 
@@ -50,9 +50,9 @@ Name - {}
 ☺️It doesn't matters if you donate ₹10 or ₹50
 or ₹100, what matters is that **You Donate**
 
-               <a href=https://PayPal.me/rahulrahaman>Paypal |</a> </a> <a href=https://bit.ly/3FPKXRp>Paytm | </a><a href=bit.ly/3AhV8gv>Gpay</a>
+               </a> <a href=https://upayi.ml/7200196154@paytm/50>Paytm | </a><a href=https://upayi.ml/krishnamoorthyv1165@okhdfcbank/50>Gpay</a>
 
- **upi-** ```iamrahulrahaman@ybl``` (tap2copy)
+ **upi-** ```krishnamoorthyv1165@okhdfcbank``` (tap2copy)
 """
     
 #the end
