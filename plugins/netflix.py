@@ -23,12 +23,12 @@ InlineKeyboardButton('Paytm ', url=f'https://bit.ly/3FPKXRp'),
 ]]
 
 REQUEST_BUTTON = [[
-InlineKeyboardButton('📢 Support Channel', url=f'https://t.me/iPrimeHub'), 
-InlineKeyboardButton('👥 Request Content', url=f'https://t.me/NetFlixRequestChat'),
+InlineKeyboardButton('📢 Support Channel', url=f'https://t.me/SS_Linkz'), 
+InlineKeyboardButton('👥 Request Content', url=f'https://t.me/NetFlix_Movies_Group'),
 ]]
 
 HELP_BUTTON = [[
-InlineKeyboardButton('🙇 Developer', url=f'https://t.me/h7n9_alpha'), 
+InlineKeyboardButton('🙇 Developer', url=f'https://t.me/sarathi_admin'), 
 InlineKeyboardButton('ℹ️ FeedBack', url=f'https://t.me/PrimeFeedbackBot'),
 ]]
 
