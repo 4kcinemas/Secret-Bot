@@ -35,7 +35,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📢 Join PrimeHub", url=invite_link.invite_link)
+                            InlineKeyboardButton("📢 Join SS_Linkz", url=invite_link.invite_link)
                         ]
                     ]
                 ),
@@ -330,15 +330,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('📢 Support Channel', url='https://t.me/iprimehub'),
-                        InlineKeyboardButton('🗣️ Request Movies', url='https://t.me/NetFlixRequestChat')
+                        InlineKeyboardButton('📢 Support Channel', url='https://t.me/ss_linkz'),
+                        InlineKeyboardButton('🗣️ Request Movies', url='https://t.me/NetFlix_Movies_Group')
                     ]
                     ]
                 await query.answer()
                 tk = await client.send_cached_media(
                     chat_id=query.from_user.id,
                     file_id=file_id,
-                    caption=f"```{f_caption}``` \n```Uploaded By``` -> **<a href=https://t.me/iNetflixrobot>ℕ𝕖𝕥𝔽𝕝𝕚𝕩</a>**",
+                    caption=f"```{f_caption}``` \n```Uploaded By``` -> **<a href=https://t.me/netflixautofilterbot>𝗡𝗘𝗧𝗙𝗟𝗜𝗫</a>**",
                     reply_markup=InlineKeyboardMarkup(buttons)
                     )
                 time.sleep(1)
@@ -378,11 +378,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 if f_caption:
                     f_caption = f_caption
                 if f_caption is None:
-                    f_caption = f"{title} \n━━━━━━━━━━✧❂✧━━━━━━━━━━\n<a href=https://t.me/NetflixBotz>🅽🅴🆃🅵🅻🅸🆇</a>",
+                    f_caption = f"{title} \n━━━━━━━━━━✧❂✧━━━━━━━━━━\n<a href=https://t.me/Netflix_Filter_Bot>🅽🅴🆃🅵🅻🅸🆇</a>",
                 buttons = [
                     [
-                        InlineKeyboardButton('📢Support Channel', url='https://t.me/iprimehub'),
-                        InlineKeyboardButton('🗣️ Request Movies', url='https://t.me/NetFlixRequestChat')
+                        InlineKeyboardButton('📢Support Channel', url='https://t.me/ss_linkz'),
+                        InlineKeyboardButton('🗣️ Request Movies', url='https://t.me/NetFlix_Movies_Group')
                     ]
                     ]
 
