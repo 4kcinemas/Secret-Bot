@@ -24,8 +24,8 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('➕ Add Me', url=f'http://t.me/netflimbot?startgroup=true'),
-                InlineKeyboardButton('ℹ️ Help', url=f'https://t.me/iNetflixRoBot?start=help'),
+                InlineKeyboardButton('➕ Add Me', url=f'http://t.me/netflixautofilterbot?startgroup=true'),
+                InlineKeyboardButton('ℹ️ Help', url=f'https://t.me/netflixautofilterbot?start=help'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -43,8 +43,8 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('👥 Support Channel', url='https://t.me/iPRIMEHUB'),
-            InlineKeyboardButton("👣 Share Me ", url='https://t.me/share/url?url=&text=%E2%98%BA%EF%B8%8F%20%F0%9D%90%88%27%F0%9D%90%A6%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%85%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9D%F0%9D%90%9E%F0%9D%90%AB%20%F0%9D%90%81%F0%9D%90%A8%F0%9D%90%AD%0A%F0%9F%91%8C%20%F0%9D%90%88%20%F0%9D%90%82%F0%9D%90%9A%F0%9D%90%A7%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9C%F0%9D%90%A1%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%85%F0%9D%90%A8%F0%9D%90%AB%20%F0%9D%90%98%F0%9D%90%A8%F0%9D%90%AE%0A%F0%9F%98%8B%20%F0%9D%90%89%F0%9D%90%AE%F0%9D%90%AC%F0%9D%90%AD%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%8C%F0%9D%90%9E%20%F0%9D%90%80%F0%9D%90%A7%F0%9D%90%B2%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%A6%F0%9D%90%9E%0A%F0%9F%94%AE%20%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E%F0%9D%90%A7%20%F0%9D%90%92%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%81%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A4%20%F0%9D%90%80%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%9E%20%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E%20%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%9C%20%20%0A%F0%9F%98%8E%20%F0%9D%90%81%F0%9D%90%A8%F0%9D%90%AD%F0%9D%90%8B%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A4%20-%3E%20%40iNetFlixRoBot')
+            InlineKeyboardButton('👥 Support Channel', url='https://t.me/ss_linkz'),
+            InlineKeyboardButton("👣 Share Me ", url='https://t.me/share/url?url=&text=%E2%98%BA%EF%B8%8F%20%F0%9D%90%88%27%F0%9D%90%A6%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%85%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9D%F0%9D%90%9E%F0%9D%90%AB%20%F0%9D%90%81%F0%9D%90%A8%F0%9D%90%AD%0A%F0%9F%91%8C%20%F0%9D%90%88%20%F0%9D%90%82%F0%9D%90%9A%F0%9D%90%A7%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9C%F0%9D%90%A1%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%85%F0%9D%90%A8%F0%9D%90%AB%20%F0%9D%90%98%F0%9D%90%A8%F0%9D%90%AE%0A%F0%9F%98%8B%20%F0%9D%90%89%F0%9D%90%AE%F0%9D%90%AC%F0%9D%90%AD%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%8C%F0%9D%90%9E%20%F0%9D%90%80%F0%9D%90%A7%F0%9D%90%B2%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%A6%F0%9D%90%9E%0A%F0%9F%94%AE%20%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E%F0%9D%90%A7%20%F0%9D%90%92%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%81%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A4%20%F0%9D%90%80%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%9E%20%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E%20%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%9C%20%20%0A%F0%9F%98%8E%20%F0%9D%90%81%F0%9D%90%A8%F0%9D%90%AD%F0%9D%90%8B%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A4%20-%3E%20%40netflixautofilterbot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -63,7 +63,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🥺Join PrimeHub", url=invite_link.invite_link
+                    "🥺Join SS_Linkz", url=invite_link.invite_link
                 )
             ]
         ]
@@ -81,8 +81,8 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('📢 Support Channel', url='https://t.me/iPRIMEHUB'),
-            InlineKeyboardButton("👣 Share Me ", url='https://t.me/share/url?url=&text=%E2%98%BA%EF%B8%8F%20%F0%9D%90%88%27%F0%9D%90%A6%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%85%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9D%F0%9D%90%9E%F0%9D%90%AB%20%F0%9D%90%81%F0%9D%90%A8%F0%9D%90%AD%0A%F0%9F%91%8C%20%F0%9D%90%88%20%F0%9D%90%82%F0%9D%90%9A%F0%9D%90%A7%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9C%F0%9D%90%A1%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%85%F0%9D%90%A8%F0%9D%90%AB%20%F0%9D%90%98%F0%9D%90%A8%F0%9D%90%AE%0A%F0%9F%98%8B%20%F0%9D%90%89%F0%9D%90%AE%F0%9D%90%AC%F0%9D%90%AD%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%8C%F0%9D%90%9E%20%F0%9D%90%80%F0%9D%90%A7%F0%9D%90%B2%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%A6%F0%9D%90%9E%0A%F0%9F%94%AE%20%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E%F0%9D%90%A7%20%F0%9D%90%92%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%81%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A4%20%F0%9D%90%80%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%9E%20%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E%20%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%9C%20%20%0A%F0%9F%98%8E%20%F0%9D%90%81%F0%9D%90%A8%F0%9D%90%AD%F0%9D%90%8B%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A4%20-%3E%20%40iNetFlixRoBot')
+            InlineKeyboardButton('📢 Support Channel', url='https://t.me/ss_linkz'),
+            InlineKeyboardButton("👣 Share Me ", url='https://t.me/share/url?url=&text=%E2%98%BA%EF%B8%8F%20%F0%9D%90%88%27%F0%9D%90%A6%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%85%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%9D%F0%9D%90%9E%F0%9D%90%AB%20%F0%9D%90%81%F0%9D%90%A8%F0%9D%90%AD%0A%F0%9F%91%8C%20%F0%9D%90%88%20%F0%9D%90%82%F0%9D%90%9A%F0%9D%90%A7%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB%F0%9D%90%9C%F0%9D%90%A1%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%85%F0%9D%90%A8%F0%9D%90%AB%20%F0%9D%90%98%F0%9D%90%A8%F0%9D%90%AE%0A%F0%9F%98%8B%20%F0%9D%90%89%F0%9D%90%AE%F0%9D%90%AC%F0%9D%90%AD%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%8C%F0%9D%90%9E%20%F0%9D%90%80%F0%9D%90%A7%F0%9D%90%B2%20%F0%9D%90%8C%F0%9D%90%A8%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%9E%20%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%A6%F0%9D%90%9E%0A%F0%9F%94%AE%20%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E%F0%9D%90%A7%20%F0%9D%90%92%F0%9D%90%AD%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%81%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A4%20%F0%9D%90%80%F0%9D%90%A7%F0%9D%90%9D%20%F0%9D%90%92%F0%9D%90%9E%F0%9D%90%9E%20%F0%9D%90%93%F0%9D%90%A1%F0%9D%90%9E%20%F0%9D%90%8C%F0%9D%90%9A%F0%9D%90%A0%F0%9D%90%A2%F0%9D%90%9C%20%20%0A%F0%9F%98%8E%20%F0%9D%90%81%F0%9D%90%A8%F0%9D%90%AD%F0%9D%90%8B%F0%9D%90%A2%F0%9D%90%A7%F0%9D%90%A4%20-%3E%20%40netflixautofilterbot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
