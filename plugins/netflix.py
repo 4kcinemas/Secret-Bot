@@ -13,13 +13,12 @@ INLINE_TXT = """**Search........**
 """
 PIK = 'https://telegra.ph/file/f4d232fde3824518ae623.jpg'
 PIK2 = 'https://telegra.ph/file/67474faec309ca88f7a71.jpg'
-DONATE_QR = 'https://telegra.ph/file/97424ec12aabfe9b4b58c.jpg'
+DONATE_QR = 'https://telegra.ph/file/b4c7f8f55a22331d7229b.jpg'
 
 #buttons
 DONATE_BUTTON = [[
-InlineKeyboardButton('Paypal', url=f'https://PayPal.me/rahulrahaman'), 
-InlineKeyboardButton('GPay', url=f'http://bit.ly/3AhV8gv'),
-InlineKeyboardButton('Paytm ', url=f'https://bit.ly/3FPKXRp'),
+InlineKeyboardButton('GPay', url=f'https://upayi.ml/krishnamoorthyv1165@okhdfcbank/50'),
+InlineKeyboardButton('Paytm ', url=f'https://upayi.ml/7200196154@paytm/50'),
 ]]
 
 REQUEST_BUTTON = [[
@@ -29,12 +28,12 @@ InlineKeyboardButton('👥 Request Content', url=f'https://t.me/NetFlix_Movies_G
 
 HELP_BUTTON = [[
 InlineKeyboardButton('🙇 Developer', url=f'https://t.me/sarathi_admin'), 
-InlineKeyboardButton('ℹ️ FeedBack', url=f'https://t.me/PrimeFeedbackBot'),
+InlineKeyboardButton('ℹ️ FeedBack', url=f'https://t.me/SarathiFF_bot'),
 ]]
 
 DISCLAIMER_BUTTON = [[
-            InlineKeyboardButton('🫂 Credit', url=f'https://telegra.ph/CREDIT-04-09'),
-            InlineKeyboardButton('ℹ️ Report', url=f'https://t.me/PrimeFeedbackBot')
+            InlineKeyboardButton('🫂 Credit', url=f'https://t.me/SS_Linkz'),
+            InlineKeyboardButton('ℹ️ Report', url=f'https://t.me/SarathiFF_bot')
         ]]
 
 MOREBOTS_BUTTON = [
